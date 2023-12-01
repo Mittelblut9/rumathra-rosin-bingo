@@ -1,0 +1,30 @@
+name: Website Deployment
+
+on:
+    push:
+        branches: [main]
+  
+permissions:
+  contents: write
+
+jobs:
+    deploy:
+        concurrency: ci-${{ github.ref }}
+        runs-on: ubuntu-latest
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: Install dependencies
+              run: npm install
+
+            - name: Build
+              run: npm run build
+
+            - name: Deploy
+              uses: JamesIves/github-pages-deploy-action@v4.4.3
+              with:
+                  branch: gh-pages
+                  folder: dist
+                  clean: true
+                  token: ${{ secrets.GITHUB_TOKEN }}
