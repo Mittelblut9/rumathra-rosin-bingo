@@ -1,0 +1,98 @@
+{
+    "options": {
+        "color0": "yellow",
+        "color1": "red",
+        "color2": "purple",
+        "color3": "blue",
+        "color4": "green"
+    },
+    "bingo": [
+        [
+            {
+                "text": "Es wird etwas mit Weißwein abgelöscht"
+            },
+            {
+                "text": "Schwarz/Weiß Blende"
+            },
+            {
+                "text": "Klimbim Kladderadatsch"
+            },
+            {
+                "text": "Tuten und Blasen/Damokles"
+            },
+            {
+                "text": "Von dem Stress ind er Küche kriegen die Testesser nichts mit"
+            }
+        ],
+        [
+            {
+                "text": "Sose x5",
+                "multiSelectNumber": 5
+            },
+            {
+                "text": "Die Inhaber sind verschuldet"
+            },
+            {
+                "text": "Flo oder Willi kommt"
+            },
+            {
+                "text": "Restaurant hat noch offen"
+            },
+            {
+                "text": "Frank macht einen schlechten Witz"
+            }
+        ],
+        [
+            {
+                "text": "Es weint jemand"
+            },
+            {
+                "text": "Nach dem 1. Testessen wird geglaubt man habe sehr gut abgeschnitten"
+            },
+            {
+                "text": "5er Sub Bombe kommt rein"
+            },
+            {
+                "text": "Frank braucht mal 5 Minuten"
+            },
+            {
+                "text": "Mega x3",
+                "multiSelectNumber": 3
+            }
+        ],
+        [
+            {
+                "text": "Es werden Tütenprodukte verwendet"
+            },
+            {
+                "text": "Rosin zwinkert"
+            },
+            {
+                "text": "Rosin geht mit Finger in die Soße"
+            },
+            {
+                "text": "Rosin wird touchy"
+            },
+            {
+                "text": "Bei Rosin kickts"
+            }
+        ],
+        [
+            {
+                "text": "Rosin geht im eigenen Restaurant kochen"
+            },
+            {
+                "text": "Seine Sterne werden erwähnt"
+            },
+            {
+                "text": "Ein Testesser sagt das Fleisch sei trocken"
+            },
+            {
+                "text": "Die Rezepte kann man auf Kabeleins.de nachlesen"
+            },
+            {
+                "text": "Die Wände werden grau gestrichen"
+            }
+        ]
+    ]
+}

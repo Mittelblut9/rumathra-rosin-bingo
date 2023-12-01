@@ -1,0 +1,39 @@
+.section-bingo--animation {
+    position: absolute;
+
+    img {
+        position: absolute;
+    }
+
+    h1 {
+        position: absolute;
+        opacity: 0;
+    }
+
+    &--active {
+        transition: all .4s ease-in-out;
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        img {
+            position: absolute;
+            left: 45px;
+            width: 600px;
+            visibility: visible !important;
+        }
+
+        h1 {
+            position: absolute;
+            font-size: 9rem;
+            top: 56%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+        }
+        
+        table {
+            visibility: hidden;
+        }
+    }
+}
